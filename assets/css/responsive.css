@@ -1,0 +1,339 @@
+/* XL Device :1200px. */
+/* @media (min-width: 1200px) {
+
+
+} */
+
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    /* header area */
+    .header-area {
+        padding: 0 30px;
+    }
+    .main-menu ul li {
+        margin-right: 20px;
+    }
+    /* slider area */
+    .slider-inner h2 {
+        font-size: 55px;
+    }
+
+    /* feature area */
+    .feature-area {
+        margin-top: 70px;
+    }
+    /* service area */
+    .service-area {
+        padding: 100px 55px 70px;
+    }
+    .single-service {
+        margin-bottom: 30px;
+    }
+    /* team area */
+    .team-info-icons i {
+        margin: 0 10px;
+    }
+
+}
+
+ 
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    
+    /* header area */
+    .header-area {
+        border-bottom: 0;
+    }
+    /* -------------------------- */
+    .header-area {
+        padding: 0 20px;
+    }
+    .header-wrapper {
+        padding: 50px 0;
+    }
+    /* .mobile-menu-icon {
+        margin: -20px 0 15px;
+    } */
+    .mobile-menu-icon {
+        margin-top: 0px;
+    }
+    .hire-us {
+        display: none;
+    }
+    .hamburger {
+        display: block;
+    }
+    .main-menu ul {
+        position: absolute;
+        top: 100%;
+        right: -100%;
+        margin: auto;
+        background: #343434;
+        z-index: 9;
+        width: 91%;
+        border-radius: 10px;
+        overflow: hidden;
+        opacity: 0;
+        visibility: hidden;
+    }
+    .main-menu ul li {
+        display: block;
+        margin-right: 0;
+        border-bottom: 1px solid #4d4a4a;
+    }
+    .main-menu ul li a {
+        color: #fff;
+        display: block;
+        padding: 20px;
+        transition: all .3s ease 0s;
+        text-align: center;
+    }
+    .main-menu ul li:hover > a {
+        background: #505CFD;
+    }
+    /* -------------------------- */
+
+
+    /* .mobile-menu-icon {
+        margin: 43px 0 15px;
+    }
+    .hire-us {
+        display: none;
+    }
+    .hamburger {
+        display: block;
+    }
+    .main-menu ul {
+        position: absolute;
+        top: 100%;
+        right: -100%;
+        background: #343434;
+        z-index: 9;
+        border-radius: 10px;
+        width: 45%;
+        overflow: hidden;
+        opacity: 0;
+        visibility: hidden;
+    }
+    .main-menu ul li {
+        display: block;
+        margin-right: 0;
+    }
+    .main-menu ul li a {
+        color: #fff;
+        display: block;
+        padding: 20px;
+        transition: all .3s ease 0s;
+        text-align: center;
+    }
+    .main-menu ul li:hover > a {
+        background: #505CFD;
+    } */
+
+    /* slider area */
+    .slider-inner h2 {
+        font-size: 55px;
+    }
+    /* feature area */
+    .feature-area {
+        margin-top: 70px;
+    }
+    .feature-content {
+        padding: 0 18px;
+    }
+    .about-text {
+        margin-bottom: 50px;
+    }
+    /* subscribe area */
+
+    .subscribe-form input {
+        width: 220px;
+    }
+    .subscribe-form .btn {
+        margin-left: 0;
+        margin-top: 50px;
+    }
+
+    /* service area */
+    .service-area {
+        padding: 100px 55px 70px;
+    }
+    .single-service {
+        margin-bottom: 30px;
+    }
+
+    /* counter area */
+    .counter-area {
+        padding-bottom: 25px;
+    }
+    .counter-wrapper {
+        margin-bottom: 20px;
+    }
+    /* footer top */
+    .footer-top {
+        padding: 70px 0 40px;
+    }
+    .footer-widget {
+        margin-bottom: 30px;
+    }
+
+
+
+}
+
+ 
+/* Extra small Device. */
+@media (max-width: 767px) {
+    /* header area */
+    .header-area {
+        border-bottom: 0;
+    }
+    .header-area {
+        padding: 0 20px;
+    }
+    .mobile-menu-icon {
+        margin: -20px 0 15px;
+    }
+    .hire-us {
+        display: none;
+    }
+    .hamburger {
+        display: block;
+    }
+    .main-menu ul {
+        position: absolute;
+        top: 100%;
+        left: 0%;
+        background: #343434;
+        z-index: 9;
+        width: 100%;
+        overflow: hidden;
+        opacity: 0;
+        visibility: hidden;
+    }
+    .main-menu ul li {
+        display: block;
+        margin-right: 0;
+    }
+    .main-menu ul li a {
+        color: #fff;
+        display: block;
+        padding: 20px;
+        transition: all .3s ease 0s;
+        text-align: center;
+    }
+    .main-menu ul li:hover > a {
+        background: #505CFD;
+    }
+
+    /* slider area */
+    .slider-inner h2 {
+        font-size: 40px;
+    }
+    .slider-icon i {
+        padding: 0px 10px;
+    }
+    /* feature area */
+    .border-right-site {
+        border: 0;
+    }
+    .border-at-bottom {
+        border-bottom: 1px solid #6b74ff;
+    }
+    .feature-area {
+        margin-top: 100px;
+    }
+    .feature-content {
+        padding: 0;
+    }
+    .single-feature {
+        padding: 50px 30px 30px;
+    }
+    .about-text {
+        margin-bottom: 30px;
+    }
+
+
+    /* subscribe area */
+    .subscribe-form form {
+        display: flex;
+        flex-direction: column;
+    }
+    .subscribe-form input {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .subscribe-form .btn {
+        width: 100%;
+        margin-left: 0;
+    }
+    /* service area */
+    .service-area {
+        padding: 100px 55px 60px;
+    }
+    .single-service {
+        margin-bottom: 40px;
+    }
+    /* pricing area */
+    .pricing-area {
+        padding: 85px 0 55px;
+    }
+    .price-column {
+        flex-direction: column;
+    }
+    .pricing-item {
+        width: 80%;
+        margin: 0 10%;
+        margin-bottom: 30px;
+    }
+
+    /* counter area */
+    .counter-area {
+        padding: 45px 0 10px;
+    }
+    .counter-wrapper {
+        margin-bottom: 30px;
+    }
+
+    /* blog area */
+    .blog-area {
+        padding: 100px 0 70px;
+    }
+    .blog-wrapper {
+        margin-bottom: 30px;
+        border: 1px solid #ddd;
+        padding: 15px;
+    }
+    /* testimonial area */
+    .testim-wrapper {
+        padding: 60px 50px;
+    }
+    /* footer top */
+    .footer-top {
+        padding: 70px 0 40px;
+    }
+    .footer-widget {
+        margin-bottom: 30px;
+    }
+    /* copyright area */
+    .copyright-text {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .footer-menu {
+        text-align: center;
+    }
+    .footer-menu ul li {
+        margin: 0 15px;
+    }
+ 
+}
+ 
+/* SM Small Device :550px. */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    /* header area mobile menu */
+    .mobile-menu-icon {
+        margin: 42px 0 15px;
+    }
+
+}
